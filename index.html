@@ -1,0 +1,1143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Icons -->
+    <!-- include css link -->
+    <link rel="stylesheet" href="/dashboard/index.css">
+    <!-- include css link -->
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/dashboard/images/portfolio.jpg" type="image/x-icon">
+    <!-- favicon -->
+    <title>Dashboard</title>
+</head>
+
+<body>
+
+
+    <header>
+        <nav class="navbar navbar-danger  ">
+            <div class="container-fluid">
+                <a class="navbar-brand ">Dashboard</a>
+
+                <div class="hamburger">
+
+                    <i class="bi bi-list" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+                        aria-controls="offcanvasWithBothOptions"></i>
+                    <i class="bi bi-three-dots" data-bs-toggle="modal" data-bs-target="#dot"></i>
+
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- content -->
+        <aside class="leftcanvas">
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Dashboard</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="unorderlist">
+                        <h4>MENU</h4>
+                        <h3 class="bi bi-house"><span>Dashboard</span></h3>
+                        <h3 class="bi bi-buildings"><span>Pages</span></h3>
+                        <h3 class="bi bi-house"><span>Application</span></h3>
+                    </div>
+                    <div class="unorderlist">
+                        <h4>UI COMPONENT</h4>
+                        <h3 class="bi bi-buildings"><span>Elements</span></h3>
+                        <h3 class="bi bi-house"><span>Component</span></h3>
+                        <h3 class="bi bi-buildings"><span>Tables</span></h3>
+                    </div>
+                    <div class="unorderlist">
+                        <h4>DASHBOARD WIDGETS</h4>
+                        <h3 class="bi bi-house"><span>Chart Boxes 1</span></h3>
+                        <h3 class="bi bi-buildings"><span>Chart Boxes 2</span></h3>
+                        <h3 class="bi bi-house"><span>Chart Boxes 3</span></h3>
+                    </div>
+                    <div class="unorderlist">
+                        <h4>FORMS</h4>
+                        <h3 class="bi bi-house"><span>Elements</span></h3>
+                        <h3 class="bi bi-buildings"><span>Widgets</span></h3>
+                    </div>
+                    <div class="unorderlist">
+                        <h4>CHART</h4>
+                        <h3 class="bi bi-house"><span>Chart Js </span></h3>
+                        <h3 class="bi bi-buildings"><span>Apex Chart</span></h3>
+                        <h3 class="bi bi-house"><span>Chart Sparkilnes</span></h3>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- content -->
+    </header>
+
+
+
+    <!-- bell -->
+    <!-- Modal -->
+    <div class="modal fade" id="dot" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <div class="topicon">
+                        <div class="row justify-content-between">
+                            <div class="col-3 ">
+                                <div class="input">
+                                    <i class="bi bi-search" id="search"></i>
+                                    <input type="text" placeholder="search here..." id="inputbox">
+                                </div>
+                            </div>
+                            <div class="col-3 ">
+                                <div class="icons">
+                                    <i class="bi bi-grid-3x3-gap " data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                        id="gridicon"></i>
+                                    <i class="bi bi-bell" data-bs-toggle="modal" data-bs-target="#exampleModals"></i>
+                                </div>
+                            </div>
+                            <div class="col-3 ">
+                                <i class="bi bi-person-circle" id="user"></i>
+                                <i class="bi bi-chevron-down" data-bs-toggle="modal" data-bs-target="#exampleModalspage"
+                                    id="arrowdown"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bell -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- main section start -->
+    <main>
+
+        <!-- section 1 start -->
+        <section class="first">
+            <div class="row">
+                <div class="col-md-8 ">
+                    <div class="content">
+                        <h3>Advertisment</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. commodi numquam.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="input">
+                        <i class="bi bi-search" id="search"></i>
+                        <input type="text" placeholder="search here..." id="inputbox">
+                    </div>
+
+                    <div class="icons">
+                        <i class="bi bi-grid-3x3-gap " data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            id="gridicon"></i>
+                        <i class="bi bi-bell" data-bs-toggle="modal" data-bs-target="#exampleModals"></i>
+                        <i class="bi bi-person-circle" id="user"></i>
+                        <i class="bi bi-chevron-down" data-bs-toggle="modal" data-bs-target="#exampleModalspage"
+                            id="arrowdown"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 1 end -->
+
+
+        <!-- toggle section -->
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" id="gridmax">
+                <div class="modal-content" id="gridmodel">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <section class="grid">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <h4>Grid Dashboard</h4>
+                                    <p>Easy grid navigation inside dropdown</p>
+                                </div>
+                            </div>
+
+                            <div class="row ">
+                                <div class="col-md-6 text-center">
+                                    <p>Automation</p>
+                                </div>
+                                <div class="col-md-6 text-center">
+                                    <p>Report</p>
+                                </div>
+                                <div class="col-md-6 text-center">
+                                    <p>Setting</p>
+                                </div>
+                                <div class="col-md-6 text-center">
+                                    <p>Content</p>
+                                </div>
+                                <div class="col-md-6 text-center">
+                                    <p>Activity</p>
+                                </div>
+                                <div class="col-md-6 text-center">
+                                    <p>Contact</p>
+                                </div>
+                            </div>
+
+                            <div class="row " id="followups">
+                                <div class="col ">
+                                    <button id="followups">Follow-ups</button>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- toggle section -->
+
+
+
+        <!-- bell -->
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModals" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" id="bellmax">
+                <div class="modal-content" id="bellmodel">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <section class="bell">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <h4>Notifications</h4>
+                                    <p>You have 21 unread message</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-4">
+                                    <span id="orange">Message</span>
+                                </div>
+                                <div class="col-4">
+                                    <span id="orange2">Events</span>
+                                </div>
+                                <div class="col-4">
+                                    <span id="orange3">System</span>
+                                </div>
+                            </div>
+
+                            <div class="row" id="usersicon">
+                                <div class="col-md-12" id="topdata">
+                                    <p> <span>All Hands Meeting</span></p>
+                                    <p>
+                                        <span>Yet onother one, <i class="text-success">15:00 pm</i> </span>
+                                    </p>
+                                    <p>
+                                        <span>Build the productions release <i id="danger"
+                                                class="text-white bg-danger">New</i> </span>
+                                    </p>
+                                    <p>
+                                        <span>Something not important</span>
+                                    </p>
+                                </div>
+                                <div class="col-md-12 d-flex justify-content-around">
+                                    <div class="images">
+                                        <img src="/dashboard/images/pic-1.jpg" class="img-fluid" alt="image">
+                                        <img src="/dashboard/images/pic-2.jpg" class="img-fluid" alt="image">
+                                        <img src="/dashboard/images/pic-3.jpg" class="img-fluid" alt="image">
+                                        <img src="/dashboard/images/pic-4.jpg" class="img-fluid" alt="image">
+                                        <img src="/dashboard/images/pic-5.jpg" class="img-fluid" alt="image">
+                                        <img src="/dashboard/images/pic-6.jpg" class="img-fluid" alt="image">
+                                    </div>
+
+                                    <div class="i">
+                                        <i class="bi bi-plus-lg"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="button text-center" id="view">
+                                        <button class="">view letest changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- bell -->
+
+        <!-- toggle section -->
+
+
+        <!-- toggle section -->
+
+
+        <!-- toggle section -->
+
+        <!-- signout -->
+        <div class="modal fade" id="exampleModalspage" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" id="signoutmax">
+                <div class="modal-content" id="signoutmodel">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <section class="signout">
+                            <div class="row" id="row1">
+                                <div class="col-md-8 ">
+                                    <div class="image"><img src="" alt=""></div>
+                                    <h4>hardik </h4>
+                                    <p>A Short Profile Description</p>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <button>Logout</button>
+                                </div>
+                            </div>
+
+                            <div class="row" id="row2">
+                                <div class="col-sm-12">
+                                    <p> <span>ACTIVITY</span></p>
+                                    <p>
+                                        <span>Chat</span>
+                                    </p>
+                                    <p>
+                                        <span> Recover Password </span>
+                                    </p>
+                                    <p>
+                                        <span>MY ACCOUNT</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row" id="row3">
+                                <div class="col-sm-6" id="message">
+                                    <span>Message Inbox</span>
+                                </div>
+                                <div class="col-sm-6" id="ticket">
+                                    <span class="text-danger">Support Ticket</span>
+                                </div>
+                            </div>
+
+                            <div class="row" id="row4">
+                                <div class="col">
+                                    <button>Open Messages</button>
+                                </div>
+                            </div>
+
+
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- signout -->
+
+
+        <!-- toggle section -->
+
+
+
+
+
+
+        <!-- section 2 start -->
+        <section class="second">
+            <div class="row justify-content-between">
+                <div class=" col-sm-3 col-2 d-flex">
+                    <h3 id="nested" class="bi bi-list-nested"></h3>
+                    <span>Show Page Menu </span>
+                </div>
+                <div class="col-sm-6 col-6 text-center ">
+                    <span id="over">Overview</span>
+                    <span>Audience</span>
+                    <span id="demo">Demography</span>
+                    <span>More</span>
+                    <i class="bi bi-chevron-down" id="arrow"></i>
+                </div>
+                <div class=" col-sm-3 col-2 d-flex justify-content-end">
+                    <span>show right drawer</span>
+                    <h3 id="nested" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                        aria-controls="offcanvasRight"><i class="bi bi-list-nested"></i> </h3>
+                </div>
+            </div>
+        </section>
+        <!-- section 2 end -->
+
+
+
+        <!-- section 3 start -->
+        <section class="third">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="image">
+                        <img src="/dashboard/images/chart1.jpg" alt="image" class="img-fluid">
+                    </div>
+                    <div class="content">
+                        <h3 id="million">3 M</h3>
+                        <p id="yellow">Cash Deposit</p>
+                        <h6 class="bi bi-chevron-down"><span id="percentage1">54.1%</span> <span id="percentage2">down
+                                last 30 days</span></h6>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="image">
+                        <img src="/dashboard/images/chart2.jpg" alt="image" class="img-fluid">
+                    </div>
+                    <div class="content">
+                        <h3 id="million">1 M</h3>
+                        <p id="pink">Invested Dividents</p>
+                        <h6 id="bluetag">Compare to YoY: <span class="bi bi-chevron-down" id="blue"></span><span
+                                id="blue">14.1%</span></h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 3 end -->
+
+
+        <!-- section 4 start -->
+        <section class="four">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="image">
+                        <img src="/dashboard/images/chart3.jpg" alt="image" class="img-fluid">
+                    </div>
+                    <div class="content">
+                        <h3 id="million">$294</h3>
+                        <p id="yellow">Withdrawals</p>
+                        <h6><span>down by </span> <span class="bi bi-chevron-down" id="percentage1">21.8% </span></h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section 4 end -->
+
+
+        <!-- section 5 start -->
+        <section class="five">
+            <div class="row text-center ">
+                <div class="col-md-12">
+                    <div class="button">
+                        <button>
+                            <h2 class="text-white">View Complete Report</h2>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section 5 end -->
+
+
+        <!-- section 6 start -->
+        <section class="six">
+            <div class="row justify-content-between">
+                <div class="col-md-4">
+                    <div class="content">
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Position</th>
+                                <th>Office</th>
+                                <th>Age</th>
+                                <th>Start Date</th>
+                                <th>Salery</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-light">
+                                <td>john</td>
+                                <td>Softwear Engeenier</td>
+                                <td>London</td>
+                                <td>29</td>
+                                <td>20/10/2019</td>
+                                <td>$205,500</td>
+                            </tr>
+                            <tr>
+                                <td>john</td>
+                                <td>Softwear Engeenier</td>
+                                <td>London</td>
+                                <td>29</td>
+                                <td>20/10/2019</td>
+                                <td>$205,500</td>
+                            </tr>
+                            <tr class="table-light">
+                                <td>john</td>
+                                <td>Softwear Engeenier</td>
+                                <td>London</td>
+                                <td>29</td>
+                                <td>20/10/2019</td>
+                                <td>$205,500</td>
+                            </tr>
+                            <tr>
+                                <td>john</td>
+                                <td>Softwear Engeenier</td>
+                                <td>London</td>
+                                <td>29</td>
+                                <td>20/10/2019</td>
+                                <td>$205,500</td>
+                            </tr>
+                            <tr class="table-light">
+                                <td>john</td>
+                                <td>Softwear Engeenier</td>
+                                <td>London</td>
+                                <td>29</td>
+                                <td>20/10/2019</td>
+                                <td>$205,500</td>
+                            </tr>
+                            <tr>
+                                <td>john</td>
+                                <td>Softwear Engeenier</td>
+                                <td>London</td>
+                                <td>29</td>
+                                <td>20/10/2019</td>
+                                <td>$205,500</td>
+                            </tr>
+                            <tr class="table-light">
+                                <td>john</td>
+                                <td>Softwear Engeenier</td>
+                                <td>London</td>
+                                <td>29</td>
+                                <td>20/10/2019</td>
+                                <td>$205,500</td>
+                            </tr>
+                            <tr>
+                                <td>john</td>
+                                <td>Softwear Engeenier</td>
+                                <td>London</td>
+                                <td>29</td>
+                                <td>20/10/2019</td>
+                                <td>$205,500</td>
+                            </tr>
+                            <tr class="table-light">
+                                <td>john</td>
+                                <td>Softwear Engeenier</td>
+                                <td>London</td>
+                                <td>29</td>
+                                <td>20/10/2019</td>
+                                <td>$205,500</td>
+                            </tr>
+                            <tr>
+                                <td>john</td>
+                                <td>Softwear Engeenier</td>
+                                <td>London</td>
+                                <td>29</td>
+                                <td>20/10/2019</td>
+                                <td>$205,500</td>
+                            </tr>
+                            <tr class="table-light">
+                                <td>john</td>
+                                <td>Softwear Engeenier</td>
+                                <td>London</td>
+                                <td>29</td>
+                                <td>20/10/2019</td>
+                                <td>$205,500</td>
+                            </tr>
+                            <tr>
+                                <td>john</td>
+                                <td>Softwear Engeenier</td>
+                                <td>London</td>
+                                <td>29</td>
+                                <td>20/10/2019</td>
+                                <td>$205,500</td>
+                            </tr>
+                            <tr class="table-light">
+                                <td>john</td>
+                                <td>Softwear Engeenier</td>
+                                <td>London</td>
+                                <td>29</td>
+                                <td>20/10/2019</td>
+                                <td>$205,500</td>
+                            </tr>
+                            <tr>
+                                <td>john</td>
+                                <td>Softwear Engeenier</td>
+                                <td>London</td>
+                                <td>29</td>
+                                <td>20/10/2019</td>
+                                <td>$205,500</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <!-- section 6 end -->
+
+        <!-- section 7 start -->
+        <section class="seven">
+
+            <div class="row justify-content-between">
+                <div class="col-md-5">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Chat Box</h3>
+                        </div>
+                    </div>
+                    <!-- content 1 -->
+                    <div class="content">
+                        <div class="image">
+                            <img src="/dashboard/images/icon-1.png" class="img-fluid" alt="image">
+                        </div>
+
+                        <div class="message">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dicta sequi quis
+                                perferendisquae at, quisquam
+                                rem deserunt?</p>
+                            <h6 class="bi bi-calendar"><span>11:01 AM | Yesterday</span></h6>
+                        </div>
+                    </div>
+                    <!-- content 1 -->
+                    <!-- content 2 -->
+                    <div class="content">
+                        <div class="message">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dicta sequi quis
+                                error in magni porro quae at, quisquam
+                            </p>
+                            <h6 id="end" class="bi bi-calendar"><span>11:01 AM | Yesterday</span></h6>
+                        </div>
+                        <div class="image">
+                            <img src="/dashboard/images/icon-2.png" class="img-fluid" alt="image">
+                        </div>
+                    </div>
+                    <!-- content 2 -->
+
+
+
+
+                    <div class="row" id="fixed">
+                        <div class="col-12">
+                            <div class="input">
+                                <input type="text" placeholder="write here and hit enter to send... ">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Tasks Lists</h3>
+                        </div>
+                    </div>
+
+                    <!-- content -->
+                    <div class="wrapper border1">
+                        <div class="content">
+                            <input type="checkbox" name="checkbox" id="checkbox">
+                            <i>Wash the car</i>
+                            <span class="bg-danger">Rejected</span>
+                        </div>
+
+                        <span>Written by bob</span>
+                    </div>
+                    <!-- content -->
+                    <!-- content -->
+                    <div class="wrapper border2">
+                        <div class="content">
+                            <input type="checkbox" name="checkbox" id="checkbox">
+                            <i>Task with dropdown menu</i>
+                        </div>
+
+                        <span>By johnny</span>
+                        <span class="bg-info text-white" style="    border: 1px solid gainsboro;
+               padding: 2px 5px;
+               font-size: 13px; border-radius: 7px;">NEW</span>
+                    </div>
+                    <!-- content -->
+                    <!-- content -->
+                    <div class="wrapper border3">
+                        <div class="content">
+                            <input type="checkbox" name="checkbox" id="101">
+                            <i>Badge on the right task</i>
+                        </div>
+                        <div class="flex">
+                            <span>This tasks has show on hover</span>
+                            <i class="bi bi-check" id="check"></i>
+                            <i id="task">LETEST TASK</i>
+                        </div>
+                    </div>
+                    <!-- content -->
+
+                    <!-- content -->
+                    <div class="wrapper border5">
+                        <div class="content">
+                            <input type="checkbox" name="checkbox" id="checkbox">
+                            <i>Wash the car</i>
+                        </div>
+
+                        <span>Written by bob</span>
+                    </div>
+
+                    <!-- content -->
+
+                    <!-- content -->
+                    <div class="wrapper border6">
+                        <div class="content">
+                            <input type="checkbox" name="checkbox" id="checkbox">
+                            <i>Development Task</i>
+                        </div>
+                        <div class="flex">
+                            <span>Finish React ToDo List App</span>
+                            <i id="rating">69</i>
+                            <i class="bi bi-check" id="check"></i>
+                            <i class="bi bi-trash3-fill text-danger"></i>
+
+                        </div>
+                    </div>
+                    <!-- content -->
+
+
+                    <div class="row" id="fixed2">
+                        <div class="col-12">
+                            <div class="button">
+                                <button class="btn1">Cancel</button>
+                                <button class="btn2">Add Task</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- section 7 end -->
+
+        <!-- section 8 start -->
+
+        <section class="eight">
+            <div class="row">
+                <div class="col-md-6 marginbottom">
+                    <h3><span>Total Orders <br>
+                            <i>Last year expences</i>
+                        </span>
+                        <span id="order" class="text-warning">1896</span>
+                    </h3>
+                    <div class="progress" id="dataprogress" role="progressbar" aria-label="Basic example"
+                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar w-75"></div>
+                    </div>
+                </div>
+                <div class="col-md-6" id="green">
+                    <h3><span>Followes <br>
+                            <i>People Intrested</i>
+                        </span>
+
+                        <span id="order" class="text-success">45,5%</span>
+                    </h3>
+                    <div class="progress" id="dataprogress" role="progressbar" aria-label="Basic example"
+                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-success w-75"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row" id="second-row">
+                <div class="col-md-6 marginbottom2">
+                    <h3><span>Total Orders <br>
+                            <i>Last year expences</i>
+                        </span>
+
+                        <span id="order" class="text-danger" id="number">$527</span>
+                    </h3>
+                    <div class="progress" id="dataprogress" role="progressbar" aria-label="Basic example"
+                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger w-75"></div>
+                    </div>
+                </div>
+                <div class="col-md-6" id="green">
+                    <h3><span>Total Orders <br>
+                            <i>Last year expences</i>
+                        </span>
+
+                        <span id="order" class="text-black">682</span>
+                    </h3>
+                    <div class="progress" id="dataprogress" role="progressbar" aria-label="Basic example"
+                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-dark w-75"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section 8 end -->
+
+        <!-- section 9 start -->
+
+        <aside>
+            <div class="aside-right">
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasRightLabel">Servers Status</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="loading-circle">
+                            <!-- row-1-start -->
+                            <div class="row justify-content-around text-center">
+                                <div class="col-3">
+                                    <span style="    font-family: 'Raleway', sans-serif;
+                                    font-weight: bold;
+                                    font-size: 19px;">SERVER LOAD 1</span>
+                                    <div class="box-gauge">
+                                        <div class="skill-2">
+                                            <div class="outer-2">
+                                                <div class="inner-2">
+                                                    <div class="number-2">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:foo="http://www.example.com/fooML"
+                                                style="width: 184px; height: 165px" id="svg">
+                                                <defs>
+                                                    <linearGradient id="GradientColors">
+                                                        <stop offset="0%"></stop>
+                                                        <stop offset="100%"></stop>
+                                                    </linearGradient>
+                                                </defs>
+                                                <circle cx='50' id="circle" cy='50' r='50' stroke-linecap="round"
+                                                    foo:drag='true' />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <span style="    font-family: 'Raleway', sans-serif;
+                                    font-weight: bold;
+                                    font-size: 19px;">SERVER LOAD 2</span>
+                                    <div class="box-gauge">
+                                        <div class="skill-2">
+                                            <div class="outer-2">
+                                                <div class="inner-2">
+                                                    <div class="number-2 number-3">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:foo="http://www.example.com/fooML"
+                                                style="width: 184px; height: 165px" id="svg">
+                                                <defs>
+                                                    <linearGradient id="GradientColors">
+                                                        <stop offset="0%"></stop>
+                                                        <stop offset="100%"></stop>
+                                                    </linearGradient>
+                                                </defs>
+                                                <circle cx='50' id="circle3" cy='50' r='50' stroke-linecap="round"
+                                                    foo:drag='true' />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <span style="    font-family: 'Raleway', sans-serif;
+                                    font-weight: bold;
+                                    font-size: 19px;">SERVER LOAD 3</span>
+                                    <div class="box-gauge">
+                                        <div class="skill-2">
+                                            <div class="outer-2">
+                                                <div class="inner-2">
+                                                    <div class="number-2 number-4">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:foo="http://www.example.com/fooML"
+                                                style="width: 184px; height: 165px" id="svg">
+                                                <defs>
+                                                    <linearGradient id="GradientColors">
+                                                        <stop offset="0%"></stop>
+                                                        <stop offset="100%"></stop>
+                                                    </linearGradient>
+                                                </defs>
+                                                <circle cx='50' id="circle4" cy='50' r='50' stroke-linecap="round"
+                                                    foo:drag='true' />
+                                            </svg>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- row-1-end-->
+
+
+                        <!-- row-2-start-->
+                        <div class="chartdata">
+                            <div class="row d-flex ">
+                                <div class="col-12">
+                                    <div class="image">
+                                        <img src="/dashboard/images/line-charts.jpg" class="img-fluid" alt="image">
+                                    </div>
+
+                                    <div class="content">
+                                        <h3 class=" d-flex justify-content-between text-center"><span> <i
+                                                    class="text-warning">43</i> pakages</span> <span> <i
+                                                    class="text-danger">65</i> dropped</span><span> <i
+                                                    class="text-success">18</i> invailed</span></h3>
+                                    </div>
+
+                                    <div class="row" id="button">
+                                        <div class="col  d-flex justify-content-center text-center ">
+                                            <button class="text-danger">button</button>
+                                            <button class="text-white bg-success ">button</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- row-2-end-->
+
+
+
+                        <!-- row-3-start-->
+                        <div class="file">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="file-tittle">File Transfer</div>
+                                    <div class="documents">
+                                        <p>
+                                            <span id="fileicon" class="bi bi-file-earmark-minus text-danger"></span>
+                                            <span>TPSReport.docx </span>
+                                            <i class="bi bi-download align-self-end"></i>
+                                        </p>
+                                        <p>
+                                            <span id="fileicon" class="bi bi-file-earmark-minus text-warning"></span>
+                                            <span>TPSReport.docx </span>
+                                            <i class="bi bi-download align-self-end"></i>
+                                        </p>
+                                        <p>
+                                            <span id="fileicon" class="bi bi-file-earmark-minus text-danger"></span>
+                                            <span>TPSReport.docx </span>
+                                            <i class="bi bi-download align-self-end"></i>
+                                        </p>
+                                        <p>
+                                            <span id="fileicon" class="bi bi-file-earmark-minus text-success"></span>
+                                            <span>TPSReport.docx </span>
+                                            <i class="bi bi-download align-self-end"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- row-3-end-->
+
+
+
+
+                        <!-- row-4-start-->
+                        <section class="tasklistdata">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <h3>Tasks in Progress</h3>
+                                        </div>
+                                    </div>
+
+                                    <!-- content -->
+                                    <div class="wrapper border1">
+                                        <div class="content">
+                                            <input type="checkbox" name="checkbox" id="checkbox">
+                                            <i>Wash the car</i>
+                                            <span class="bg-danger">Rejected</span>
+                                        </div>
+
+                                        <span>Written by bob</span>
+                                    </div>
+                                    <!-- content -->
+                                    <!-- content -->
+                                    <div class="wrapper border2">
+                                        <div class="content">
+                                            <input type="checkbox" name="checkbox" id="checkbox">
+                                            <i>Task with dropdown menu</i>
+                                        </div>
+
+                                        <span>By johnny</span>
+                                        <span class="bg-info text-white" style="    border: 1px solid gainsboro;
+       padding: 2px 5px;
+       font-size: 13px; border-radius: 7px;">NEW</span>
+                                    </div>
+                                    <!-- content -->
+                                    <!-- content -->
+                                    <div class="wrapper border3">
+                                        <div class="content">
+                                            <input type="checkbox" name="checkbox" id="101">
+                                            <i>Badge on the right task</i>
+                                        </div>
+                                        <div class="flex">
+                                            <span>This tasks has show on hover</span>
+                                            <i class="bi bi-check" id="check"></i>
+                                            <i id="task">LETEST TASK</i>
+                                        </div>
+                                    </div>
+                                    <!-- content -->
+
+                                    <!-- content -->
+                                    <div class="wrapper border5">
+                                        <div class="content">
+                                            <input type="checkbox" name="checkbox" id="checkbox">
+                                            <i>Wash the car</i>
+                                        </div>
+
+                                        <span>Written by bob</span>
+                                    </div>
+
+                                    <!-- content -->
+
+                                    <!-- content -->
+                                    <div class="wrapper border6">
+                                        <div class="content">
+                                            <input type="checkbox" name="checkbox" id="checkbox">
+                                            <i>Development Task</i>
+                                        </div>
+                                        <div class="flex">
+                                            <span>Finish React ToDo List App</span>
+                                            <i id="rating">69</i>
+                                            <i class="bi bi-check" id="check"></i>
+                                            <i class="bi bi-trash3-fill text-danger"></i>
+
+                                        </div>
+                                    </div>
+                                    <!-- content -->
+                                </div>
+                            </div>
+                        </section>
+
+
+
+                        <!-- row-4-end-->
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- section 9 end -->
+
+
+        <!-- section 10 start -->
+
+        <!-- section 10 end -->
+
+
+
+        <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Grid Dashboard</h1>
+        <p>Easy grid navigation inside dropdown</p> -->
+
+
+
+
+
+    </main>
+    <!-- main section end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- include JS link -->
+    <script src="/dashboard/index.js"></script>
+    <!-- include JS link -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+</body>
+
+</html>
